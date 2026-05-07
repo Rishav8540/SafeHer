@@ -7,7 +7,7 @@ import {
 import toast from 'react-hot-toast';
 import { useAuth } from '../context/AuthContext';
 
-const API = 'http://localhost:5000/api';
+const API = 'https://safeher-7tqn.onrender.com';
 
 function getToken() {
   return localStorage.getItem('safeher_token');
@@ -25,7 +25,7 @@ function getSavedLink() {
 
 // ── Open WhatsApp Link directly ───────────────────────
 function openWhatsApp(link) {
-  if (!link || link.includes('your-link-here')) {
+  if (!link || link.includes('https://whatsapp.com/channel/0029Vb86SqFDJ6H9DtbZLI2X')) {
     toast.error('Please set your WhatsApp group link first!');
     return false;
   }

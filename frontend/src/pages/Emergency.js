@@ -40,7 +40,7 @@ function getToken() {
 }
 
 // ── API Base URL ──────────────────────────────────────
-const API = 'http://localhost:5000/api';
+const API = 'https://safeher-7tqn.onrender.com';
 
 // ── Fake Call Screen ──────────────────────────────────
 function FakeCallScreen({ onEnd }) {
