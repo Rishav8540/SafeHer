@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'https://safeher-7tqn.onrender.com',
+  baseURL: 'https://safeher-7tqn.onrender.com/api',
   timeout: 15000,
   headers: { 'Content-Type': 'application/json' }
 });
