@@ -25,7 +25,7 @@ function getSavedLink() {
 
 // ── Open WhatsApp Link directly ───────────────────────
 function openWhatsApp(link) {
-  if (!link || link.includes('https://whatsapp.com/channel/0029Vb86SqFDJ6H9DtbZLI2X')) {
+  if (!link || link.includes('your-link-here')) {
     toast.error('Please set your WhatsApp group link first!');
     return false;
   }

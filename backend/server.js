@@ -10,9 +10,10 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: [
+origin: [
   'http://localhost:3000',
   'http://localhost:5001',
+  process.env.CLIENT_URL || 'http://localhost:3000',
   'https://safeher-app.netlify.app'
 ],
   credentials: true
